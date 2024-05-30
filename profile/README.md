@@ -1,4 +1,4 @@
-AdCellerant is technology and marketing that make the complex simple. Oh, did we mention that we're [B-Corp Certified](https://adcellerant.com/adcellerant-attains-b-corp-certification-reinforcing-its-commitment-to-sustainable-business-practices/)? 😎
+AdCellerant is technology and marketing that make the complex simple. Oh, did we mention that we're [B-Corp Certified](https://www.bcorporation.net/en-us/find-a-b-corp/company/adcellerant-llc/)? 😎
 
 ## Get in touch!
 
