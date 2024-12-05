@@ -1,0 +1,29 @@
+name: Auto Approve Renovate Pull Request
+
+on:
+  workflow_call:
+    secrets:
+      github-token:
+        description: 'GitHub token for authentication. Must have authorization to approve the PR'
+        required: true
+    inputs:
+      pull-request-number:
+        description: 'The pull request number to approve'
+        required: true
+        type: number
+
+permissions:
+  pull-requests: read
+
+jobs:
+  approve_pr:
+    # Check if the PR is from the renovate[bot] user
+    if: github.actor == 'renovate[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Approve PR
+      uses: juliangruber/approve-pull-request-action@b71c44ff142895ba07fad34389f1938a4e8ee7b0 # v2
+      with:
+        github-token: ${{ secrets.github-token }}
+        number: ${{ inputs.pull-request-number }}
