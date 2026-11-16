@@ -17,6 +17,6 @@ Reason:
 ---
 
 ### JIRA:
-https://adcellerant.atlassian.net/browse/ENG-NNNN
+https://adcellerant.atlassian.net/browse/<PROJECT>-<NUMBER>
 
 ---
